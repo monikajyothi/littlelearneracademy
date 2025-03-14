@@ -1,0 +1,220 @@
+*{
+    font-family: "Karla", sans-serif;
+}
+.navbar li{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px;
+}
+.active1{
+    
+    color: rgb(8, 187, 154) !important;
+}
+.list li a{
+    transition: all 0.2s;
+}
+.list li a:hover{
+    color: rgb(8, 187, 154) !important;
+} 
+ header button{
+    width: 200px;
+    height: 40px;
+    font-weight: 500;
+    border-radius: 6px;
+    border-color: transparent;
+    background-color:rgb(8, 187, 154);
+    color: white;
+    margin-right: 10px;
+}
+.hero{
+    animation-duration: 1000ms;
+    background-color: rgba(234, 251, 248, 0.403);
+    
+    
+}
+
+.hero button{
+    width: 200px;
+    height: 40px;
+    font-weight: 500;
+    border-radius: 6px;
+    border-color: transparent;
+    background-color:rgb(8, 187, 154);
+    color: white;
+   
+    
+}
+.hero1{
+    animation-delay: 1ms;
+    animation-duration: 1000ms;
+}
+.btnn{
+    width: 200px;
+    height: 40px;
+    font-weight: 500;
+    border-radius: 6px;
+    border-color: transparent;
+    background-color:rgb(8, 187, 154);
+    color: white;
+}
+
+.shape{
+    
+    background-color: rgb(207, 231, 252);
+    height: 200px;
+    width: 200px;
+    clip-path: polygon(25%0,75%0,100%25%,100%75%,75%100%,25%100%,0%75%,0%25%);
+}
+.shapes img{
+    height: 300px;
+    width: 300px;
+}
+.skillimg{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    
+}
+.play img{
+    height: 450px;
+}
+
+
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.std img{
+    transition: 0.2s;
+}
+.std:hover img{
+    transform: scale(1.1);
+}
+
+.std img{
+    margin-top: 20px;
+}
+.stds h6{
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.stds li{
+    list-style-type: none;
+   display: inline;
+}
+.stds li img{
+    width: 25%;
+    
+}
+.col-3 img{
+    border-radius: 50%;
+}
+.carousel-inner{
+    transition: 0.2s;
+}
+.carousel-indicators li{
+    list-style-type: none;
+}
+.safety h5{
+    color:black;
+}
+.owl li{
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+    color: red;
+}
+.owl-carousel{
+    transition: 1s;
+    
+}
+.humancheck{
+    width: 320px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    top: 45%;
+    left: 30%;
+}
+.humancheck li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+.submit{
+    color: white;
+    top: 70%;
+    left: 30%;
+    font-size: 20px;
+}
+.gallery:hover img{
+    transform: scale(1.05);
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: 0.5s;
+}
+.prgmbtn:hover{
+    background-color: green;
+    color: white;
+    transform: rotateX('180');
+}
+.accordion-body:hover{
+    background-color:rgb(226, 253, 248);
+}
+.admi{
+    height: 550px;
+    position: fixed;
+}
+.owl-nav{
+    display: none !important;
+}
+.bg1{
+    background-image: url(assets/bg2.webp);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    z-index: -1;
+}
+.carousel-control-prev-icon{
+    background-color: transparent !important;
+    
+}
+.modal-header{
+    border-bottom: none;
+}
+.modal-footer{
+    border-top: none;
+}
+
+
+footer{
+    background-color:rgb(226, 253, 248) ;
+    width: 100%;
+    text-underline-position: below;
+}
+.ftlogo img{
+    width: 350px;
+    height: 120px;
+}
+.ftlogo h6{
+    color:rgb(1, 189, 154) ;
+}
+.hm li{
+    list-style-type: none;
+
+}
+.hm ul li a{
+    color:rgb(1, 189, 154) ;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: medium;
+    /* margin: 10px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
